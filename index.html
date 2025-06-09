@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>CRUD com jQuery e AJAX</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<select id="userRole">
+    <option value="ADM">Administrador</option>
+    <option value="Supervisor">Supervisor</option>
+    <option value="Especialista">Especialista</option>
+  </select>
+  <input type="hiden" id="currentUserId" value="1" />
+  
+<body>
+    <h1>CRUD com jQuery e AJAX</h1>
+
+    <form id="formUser">
+        <input type="hidden" id="userId" />
+        <input type="text" id="name" placeholder="Nome" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <button type="submit">Salvar</button>
+    </form>
+
+    <div id="message"></div>
+
+    <table>
+        <thead>
+            <tr><th>Nome</th><th>Email</th><th>Ações</th></tr>
+        </thead>
+        <tbody id="userList"></tbody>
+    </table>
+
+<script src="script/app.js"></script>
+</body>
+</html>

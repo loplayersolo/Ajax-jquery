@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "João",
+      "email": "joao@google.com",
+      "role": "ADM"
+    },
+    {
+      "id": 2,
+      "name": "Maria",
+      "email": "maria@google.com"
+    },
+    {
+      "id": 3,
+      "name": "Pedro",
+      "email": "pedro@google.com"
+    },
+    {
+      "id": 4,
+      "name": "Ana",
+      "email": "ana@google.com"
+    },
+    {
+      "id": 5,
+      "name": "Carlos",
+      "email": "carlos@google.com"
+    },
+    {
+      "id": 6,
+      "name": "Julia",
+      "email": "julia@google.com"
+    },
+    {
+      "id": 7,
+      "name": "Lucas",
+      "email": "lucas@google.com"
+    },
+    {
+      "id": 8,
+      "name": "Beatriz",
+      "email": "beatriz@google.com"
+    },
+    {
+      "id": "490e",
+      "name": "José",
+      "email": "Jose@google.com"
+    },
+    {
+      "id": "fdc3",
+      "name": "Silvana",
+      "email": "silvana@google.com"
+    }
+  ]
+}
