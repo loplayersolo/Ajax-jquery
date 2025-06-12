@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <meta charset="UTF-8">
   <title>Cadastro</title>
   <style>
@@ -51,15 +52,17 @@
 <body>
   <div class="container">
     <h2>Cadastro</h2>
-    <form action="/cadastro" method="POST">
-      <input type="text" name="nome" placeholder="Nome completo" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="password" name="senha" placeholder="Senha" required>
-      <button type="submit">Cadastrar</button>
+    <form  id="formUser">
+      <input type="hidden" id="userId" />
+      <input type="text" name="nome"  id="name" placeholder="Nome completo" required>
+      <input type="email" name="email" id="email" placeholder="Email" required>
+      <input type="password" name="senha" id="senha"placeholder="Senha" required>
+      <button  type="submit">Cadastrar</button>
     </form>
     <div class="link">
       <a href="login.html">Já tem conta? Entrar</a>
     </div>
   </div>
+  <script src="script/app.js"></script>
 </body>
 </html>
